@@ -16,7 +16,11 @@ let arr = [
   }
   
   function PrintDeveloperbyForEach() {
-    
+    arr.forEach((item) => {
+        if (item.profession === "developer") {
+          console.log(item);
+        }
+      });
   }
   
   function addData() {
