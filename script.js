@@ -24,7 +24,9 @@ let arr = [
   }
   
   function addData() {
-    
+    let newEmployee = { id: 4, name: "sam", age: "22", profession: "designer" };
+    arr.push(newEmployee);
+    console.log(arr);
   }
   
   function removeAdmin() {
