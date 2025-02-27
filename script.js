@@ -30,7 +30,8 @@ let arr = [
   }
   
   function removeAdmin() {
-    
+    arr = arr.filter((item) => item.profession !== "admin");
+    console.log(arr);
   }
   
   function concatenateArray() {
